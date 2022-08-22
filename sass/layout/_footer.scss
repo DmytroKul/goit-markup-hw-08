@@ -1,0 +1,134 @@
+.conteiner-footer {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.footer {
+  margin: 0 auto;
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 1600px;
+}
+.logo__footer--light {
+  color: #fff;
+}
+.logo__footer {
+  display: block;
+  width: 145px;
+
+  margin-bottom: 20px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.adress__link {
+  color: rgba(255, 255, 255, 0.6);
+  list-style-type: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+.address-color {
+  color: #ffffff;
+}
+
+.address__list li:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__footer {
+  align-items: baseline;
+  margin-right: 70px;
+}
+
+.address {
+  width: 231px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.join__form {
+  display: flex;
+}
+
+.folow__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  width: 206px;
+
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.subscribe__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.follow {
+  display: inline-block;
+  align-items: baseline;
+  margin-right: 93px;
+}
+
+.follow__list {
+  width: 206px;
+  display: flex;
+  gap: 10px;
+}
+
+.follow__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.join__input {
+  width: 358px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 12px;
+  color: #fff;
+  outline: transparent;
+}
+
+.icon-send {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+  margin-left: 10px;
+}

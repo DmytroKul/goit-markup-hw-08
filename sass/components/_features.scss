@@ -1,0 +1,197 @@
+// .conteiner {
+//   padding-left: 15px;
+//   padding-right: 15px;
+//   margin: 0 auto;
+
+//   @media screen and (min-width: 480px) {
+//     width: 480px;
+//   }
+
+//   @media screen and (min-width: 768px) {
+//     width: 768px;
+//   }
+
+//   @media screen and (min-width: 1600px) {
+//     width: 1600px;
+//   }
+// }
+
+// Mobile
+// customers-conteiner
+
+@media screen and (min-width: 480px) {
+  .customers-conteiner {
+    width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 479px) {
+  .customers__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 479px) {
+  .customers__link {
+    width: 210px;
+    height: 92px;
+  }
+}
+
+@media screen and (min-width: 479px) {
+  .customers__tittle {
+    font-size: 28px;
+  }
+}
+
+// table
+@media screen and (min-width: 768px) {
+  .customers-conteiner {
+    width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .customers__link {
+    width: 226px;
+    height: 92px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .customers__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .customers__tittle {
+    font-size: 28px;
+  }
+}
+//desctop
+@media screen and (min-width: 1200px) {
+  .customers-conteiner {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .customers__link {
+    width: 170px;
+    height: 92px;
+  }
+}
+//
+//
+//
+//
+//
+//
+//
+
+// /about
+//conteiner-about
+// mobail
+
+// @media screen and (min-width: 480px) {
+//   .conteiner-about {
+//     width: 480px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//   }
+// }
+
+// @media screen and (min-width: 479px) {
+//   .about__list {
+//     display: flex;
+//     flex-wrap: wrap;
+//   }
+// }
+
+// @media screen and (min-width: 479px) {
+//   .about__item {
+//     width: 450px;
+//     height: 120px;
+//   }
+// }
+
+// // table
+// @media screen and (min-width: 768px) {
+//   .conteiner-about {
+//     width: 768px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//   }
+// }
+
+// @media screen and (min-width: 768px) {
+//   .about__list {
+//     display: flex;
+//     flex-wrap: wrap;
+//   }
+// }
+
+// @media screen and (min-width: 768px) {
+//   .about__icon {
+//     width: 354px;
+//   }
+// }
+// @media screen and (min-width: 768px) {
+// }
+
+// // dasctop
+
+// @media screen and (min-width: 1200px) {
+//   .conteiner-about {
+//     width: 1200px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//   }
+// }
+
+// @media screen and (min-width: 120px) {
+//   .about__list {
+//     display: flex;
+//   }
+// }
+
+//
+//
+//
+//
+
+//
+//
+//
+//
+@media screen and (min-width: 480px) {
+  .benefits {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .benefits {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefits {
+    display: flex;
+  }
+}
+//
+//
+//
+//
+//
+
+//
+//
+//

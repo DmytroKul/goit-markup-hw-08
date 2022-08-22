@@ -1,0 +1,59 @@
+.team-icon__link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 50%;
+  fill: #afb1b8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &--active:hover,
+  &--active:focus {
+    background-color: var(--accent-color);
+  }
+  &--active:hover .team-icon,
+  &--active:focus .team-icon {
+    fill: #ffffff;
+  }
+}
+
+.team-icon {
+  width: 22px;
+  height: 22px;
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+// .team-icon__link--active:hover,
+// .team-icon__link--active:focus {
+//   background-color: var(--accent-color);
+// }
+
+// .team-icon__link--active:hover .team-icon,
+// .team-icon__link--active:focus .team-icon {
+//   fill: #ffffff;
+// }
+// .team-icon {
+//   width: 22px;
+//   height: 22px;
+//   fill: #afb1b8;
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// }
+//
+//
+// .team__icon--active:hover,
+// .team__icon--active:focus {
+//   background-color: var(--accent-color);
+// }
+//
+//
+// .team__icon--active:hover .team-icon,
+// .team__icon--active:focus .team-icon {
+//   fill: #ffffff;
+// }
+
+// .team-icon:hover {
+//   fill: var(--accent-color);
+// }

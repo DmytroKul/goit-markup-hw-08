@@ -1,0 +1,32 @@
+.logo {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  width: 145px;
+  align-items: center;
+}
+
+.logo-dark {
+  color: #000000;
+}
+
+.logo__footer--light {
+  color: #fff;
+}
+.logo__footer {
+  display: block;
+  width: 145px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+
+  margin-bottom: 20px;
+}
