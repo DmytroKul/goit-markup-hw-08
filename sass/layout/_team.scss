@@ -2,6 +2,15 @@
   max-width: 1600px;
   margin: 0 auto;
   background-color: #f5f4fa;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    min-width: 1600px;
+  }
 }
 
 .team-conteiner {
@@ -12,7 +21,7 @@
     width: 768px;
   }
   @media screen and (min-width: 1200px) {
-    width: 1201px;
+    width: 1200px;
   }
 }
 
